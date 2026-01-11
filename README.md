@@ -66,28 +66,33 @@ The app supports trending content, searching, infinite scrolling, and favorites 
 
 ---
 
-## 📁 Project Structure (Simplified)
+## 📁 Project Structure
 
+```text
 src/
 ├── features/
-│ ├── discover/
-│ │ ├── components/
-│ │ ├── hooks/
-│ │ ├── api/
-│ │ └── types/
-│ ├── search/
-│ │ ├── components/
-│ │ ├── hooks/
-│ │ └── api/
+│   ├── discover/
+│   │   ├── components/
+│   │   ├── hooks/
+│   │   ├── api/
+│   │   └── types/
+│   │
+│   ├── search/
+│   │   ├── components/
+│   │   ├── hooks/
+│   │   └── api/
 │
 ├── shared/
-│ ├── api/
-│ ├── hooks/
-│ ├── store/
-│ └── components/
+│   ├── api/
+│   ├── hooks/
+│   ├── store/
+│   └── components/
 │
 ├── navigation/
 └── screens/
+```
+
+
 
 ## 🚀 Setup & Run
 
@@ -95,16 +100,14 @@ src/
 npm install
 npx expo start
 Make sure you add your TMDB API key to the API client configuration.
-
+```
 🧪 Future Improvements
-Skeleton loaders for grid items
-
-Search suggestions & recent searches
-
-Persisted query cache
-
-Animations on content switch
-
-Offline favorites support
+- Skeleton loaders for grid items
+- Search suggestions & recent searches
+- Persisted query cache
+- Animations on content switch
+- Offline favorites support
+- Dark mode (system-aware light/dark theme)
+- User authentication (registration & account creation)
 
 Accessibility improvements
