@@ -75,11 +75,13 @@ src/
 │   │   ├── components/
 │   │   ├── hooks/
 │   │   ├── api/
+│   │   ├── screens/
 │   │   └── types/
 │   │
 │   ├── search/
 │   │   ├── components/
 │   │   ├── hooks/
+│   │   ├── screens/
 │   │   └── api/
 │
 ├── shared/
@@ -88,8 +90,7 @@ src/
 │   ├── store/
 │   └── components/
 │
-├── navigation/
-└── screens/
+└── navigation/
 ```
 
 
